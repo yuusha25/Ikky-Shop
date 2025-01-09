@@ -1,0 +1,28 @@
+.myBGHeader {
+    /* height: 10vh; */
+    background-color: #8C4A32;
+
+}
+
+.myBGContent {
+    height: 92vh;
+    background-color: #F4E1D2;
+}
+
+.buttonBG {
+    color: #ffffff; /* Warna teks */
+    background-color: #FF6F61 !important; /* Warna latar */
+    border: 1px solid #FF6F61 !important; /* Warna border */
+}
+
+.buttonBG:hover {
+    background-color: #E65C50 !important; /* Warna latar saat hover */
+    border-color: #E65C50 !important; /* Warna border saat hover */
+    color: #ffffff !important; /* Warna teks tetap */
+}
+
+.buttonBG:active, .buttonBG:focus {
+    background-color: #D94E43 !important; /* Warna latar saat aktif/fokus */
+    border-color: #D94E43 !important; /* Warna border saat aktif/fokus */
+    box-shadow: 0 0 0 0.2rem rgba(255, 111, 97, 0.5) !important; /* Shadow fokus */
+}
